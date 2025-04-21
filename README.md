@@ -6,7 +6,7 @@ This project is a machine learning pipeline built to **predict the presence of h
 
 ## Dataset
 
-The dataset was sourced from [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). It contains anonymized patient health records with features such as:
+The dataset was sourced from [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) on Kaggle. It contains anonymized patient health records with features such as:
 
 - Age, Sex
 - Chest Pain Type
