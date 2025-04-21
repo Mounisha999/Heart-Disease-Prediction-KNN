@@ -1,4 +1,4 @@
-# Heart-Disease-Prediction-KNN
+## Heart-Disease-Prediction-KNN
 
 This project is a machine learning pipeline built to **predict the presence of heart disease** based on patient health attributes. It includes exploratory data analysis, feature engineering, model building, and hyperparameter tuning.
 
@@ -6,7 +6,7 @@ This project is a machine learning pipeline built to **predict the presence of h
 
 ## Dataset
 
-The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction. It contains anonymized patient health records with features such as:
+The dataset was sourced from [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction). It contains anonymized patient health records with features such as:
 
 - Age, Sex
 - Chest Pain Type
@@ -42,21 +42,21 @@ The dataset was sourced from https://www.kaggle.com/datasets/fedesoriano/heart-f
 
 Used **k-Nearest Neighbors (k-NN)** for classification.
 
-### Steps:
+## Steps:
 - Trained baseline models with individual features
 - Selected key features based on correlation and performance
 - Tuned hyperparameters using **GridSearchCV**:
   - `n_neighbors` from 1 to 20
   - Distance metrics: `'minkowski'` and `'manhattan'`
 
-### ✅ Best Model:
+## Best Model:
 - Accuracy on validation: **~83%**
 - Accuracy on test set: **~87%**
 - Evaluated using confusion matrix
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Pandas, NumPy
